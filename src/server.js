@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import "./src/config/db.js";
+import "./config/db.js";
 
 // Importação das rotas
-import userRoutes from "./src/routes/userRoutes.js";
-import postRoutes from "./src/routes/postRoutes.js";
+import userRoutes from "./routes/userRoutes.js";
+import postRoutes from "./routes/postRoutes.js";
 
 dotenv.config();
 
